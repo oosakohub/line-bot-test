@@ -50,8 +50,8 @@ def webhook():
 
                 message = event["message"]["text"]
 
-if not message.startswith("大底1号"):
-    return "OK"
+                if not message.startswith("大底1号"):
+                return "OK"
 
 message = message.replace("大底1号", "", 1).strip()
                 reply_token = event["replyToken"]

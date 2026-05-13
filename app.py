@@ -30,9 +30,6 @@ def home():
 
 @app.route("/webhook", methods=["POST"])
 def webhook():
-
-@app.route("/webhook", methods=["POST"])
-def webhook():
     data = request.json
 
     for event in data.get("events", []):

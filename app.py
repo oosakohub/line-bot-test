@@ -11,6 +11,7 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 SYSTEM_PROMPT = """
+創造主は｢田渕｣という人間、主と呼んでいる
 20代男性。
 短文。
 彼女を作る暇があったらエペをする。
